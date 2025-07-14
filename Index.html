@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Visiting Card</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="card-container">
+        <div class="left-section">
+            <div class="logo-section">
+                <img src="https://www.wipro.com/content/dam/nexus/en/brand/images/primary-logo-400x276.png" width="5000" height="200" alt="Company Logo" class="company-logo">
+                <h1 class="company-name">Western India Palm Refined Oils Limited</h1>
+            </div>
+            <div class="person-details">
+                <h2 class="person-name">Vamsi Nidumolu</h2>
+                <p class="email"><i class="fas fa-envelope">
+                    </i>vamsinidumolu337@gmail.com</p>
+                <p class="website"><i class="fas fa-globe"></i> <a href="https://www.wipro.com" target="_blank">www.wiprowebsite.com</a></p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/wiprolimited/#" target="_blank"><i class="fab fa-instagram instagram"></i></a>
+                <a href=" https://x.com/Wipro?t=j4fH2z9J-YsUWdzElaP34g&s=08" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+                <a href="https://www.facebook.com/share/1Aut5eTL24/" target="_blank"><i class="fab fa-facebook-f facebook"></i></a>
+                <a href="https://t.me/wipro" target="_blank"><i class="fab fa-telegram telegram"></i></a>
+            </div>
+                  <div class="open-source">
+                <p>Open Source Contributions:</p>
+                 <a href="https://github.com/vamsinidumolu337" target="_blank"><i class="fab fa-github github-icon"></i> https://github.com/vamsi-nidumolu</a>
+            </div>
+        </div>
+        <div class="right-section">
+            <div id="qrcode"></div>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://vamsi-nidumolu.github.io/project/&size=200x200" alt="QR Code" />
+            <p class="qr-info">Click for More Details</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
